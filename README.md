@@ -39,6 +39,9 @@ Each header has 8 data pin, Vcc and GND.
 
 Special header JP8 has connected the CA1, CA2, CB1 and CB2 control pins.
 
+![Board](hw/board.jpg)
+
+
 ### RESET circuit
 
 For Kilo, Bravo etc. with inverted RESET, just connect RES pin "+" (1-2)
