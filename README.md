@@ -58,36 +58,38 @@ If you does not use the dedicated power supply, just leave both switches open an
 
 ## System bus pinout
 
-1 /WR
-2 D0
-3 D1
-4 D2
-5 D3
-6 D4
-7 D5
-8 D6
-9 D7
-10 A0
-11 A1
-12 A2 (not connected in OMEN PIA)
-13 /RD
-14 IO1 (active low)
-15 IO2
-16 IO3
-17 IO4
-18 IO5
-19 IO6
-20 IO7
-21 Vcc
-22 GND
-23 IRQ (not connected in OMEN PIA)
-24 Clock
-25 /RESET
-26 /WAIT (not connected in OMEN PIA)
-27 /BUSRQ (not connected in OMEN PIA)
-28 /BUSACK (not connected in OMEN PIA)
-29 (Reserved for future use)
-30 (Reserved for future use)
+| Pin | Signal
+| --- | ---
+| 1  | /WR
+| 2  | D0
+| 3  | D1
+| 4  | D2
+| 5  | D3
+| 6  | D4
+| 7  | D5
+| 8  | D6
+| 9  | D7
+| 10 |  A0
+| 11 |  A1
+| 12 |  A2 (not connected in OMEN PIA)
+| 13 |  /RD
+| 14 |  IO1 (active low)
+| 15 |  IO2
+| 16 |  IO3
+| 17 |  IO4
+| 18 |  IO5
+| 19 |  IO6
+| 20 |  IO7
+| 21 |  Vcc
+| 22 |  GND
+| 23 |  IRQ (not connected in OMEN PIA)
+| 24 |  Clock
+| 25 |  /RESET
+| 26 |  /WAIT (not connected in OMEN PIA)
+| 27 |  /BUSRQ (not connected in OMEN PIA)
+| 28 |  /BUSACK (not connected in OMEN PIA)
+| 29 |  (Reserved for future use)
+| 30 |  (Reserved for future use)
 
 ### License
 
