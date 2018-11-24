@@ -55,3 +55,7 @@ If you have the regulated voltage supply 5V, you can connect it directly here. P
 You can use the place for the 7805 regulator (up to 2 A). Solder the regulator and tvo capacitors, and select option "LDO" on both switches JP3, JP4. Connect power supply 7 - 12 V. Use heat sink for the regulator!
 
 If you does not use the dedicated power supply, just leave both switches open and omit the power supply connector, voltage regulator as well as both capacitors.
+
+### License
+
+[CERN OHL](LICENSE.txt)
