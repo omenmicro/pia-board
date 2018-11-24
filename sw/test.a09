@@ -1,0 +1,41 @@
+; OMEN PIA test
+; 6809 source (OMEN Kilo)
+
+; It just set some bits up and some down
+
+; PIA is connected IO3
+PIA         EQU     $9800 
+
+;Common PIA addresses - using the highest possible
+PORTA       EQU     PIA+$3fc 
+DDRA        EQU     PORTA 
+CRA         EQU     PIA+$3fd 
+PORTB       EQU     PIA+$3fe 
+DDRB        EQU     PORTB 
+CRB         EQU     PIA+$3ff 
+
+            .ORG    $200 
+            .ENT    $ 
+
+            LDA     #$00 ; no interrupts, access DDR
+            STA     CRA 
+            STA     CRB 
+
+
+            LDA     #$FF ; all outputs
+            STA     DDRA 
+            STA     DDRB 
+
+            LDA     #$04 ; access PORT
+            STA     CRA 
+            STA     CRB 
+
+; Set bit pattern
+
+            LDA     #$55 
+            STA     PORTA 
+            LDA     #$AA 
+            STA     PORTB 
+
+; and done
+            JMP     $E000 
